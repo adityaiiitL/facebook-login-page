@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    background:linear-gradient(#48649F, #3B5998, #3B5998);
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #253a69;
+}
+.logo {
+    position: absolute;
+    left: 10%;
+    padding-top: 15px;
+    height: 65px;
+    width: 190px;
+}
+.login_form {
+    position: absolute;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 15px;
+    left: 58%;
+}
+.login_form .text, 
+.login_form .password {
+    padding-left: 10px;
+}
+.login_form .text .font,
+.login_form .password .font {
+    color: white;
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+.login_form .text input,
+.login_form .password input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+.login_form .login {
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    color: white;text-shadow: black 0.6px 0.6px;
+    cursor: pointer;
+    background: linear-gradient(#74b85e, #598B45);
+    border: 1px solid #0d0d0e;
+}
+.login_form .login:hover {
+    background:#067a06;
+}
+div.main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(#FDFDFE, #e0e6f3, #dadff0, #dadfee, #cad3ee);;
+    width: 100%;
+    height: 614px;
+}
+.main_logo {
+    left: 15%;
+    top: 20%;
+    position: absolute;
+}
+.main_logo .text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: -25px;
+}
+.main_logo .text1{
+    color: #083987;
+    font-size: 18px;
+    margin-left: 40px;   
+    margin-bottom: 5px;
+}
+.new_account {
+    position: absolute;
+    left: 57%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head1 {
+    font-weight: 545;
+    font-size: 43px;
+    margin: 25px 0px;
+}
+.head2 {
+    font-size:17px;
+    margin: -20px 5px;
+}
+.new_account .new_account_form input {
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.new_account .new_account_form .lastname {
+    margin-left: 15px;
+}
+.new_account .new_account_form .email,
+.new_account .new_account_form .password,
+.new_account .new_account_form .confirm_password {
+    margin-top: 20px;
+    width: 397px;
+}
+.new_account .new_account_form .text_dob {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(109, 105, 105);
+}
+.new_account .new_account_form .input_dob{
+    margin-top: 13px;
+}
+.new_account .new_account_form .dob {
+    font-size: 12px;
+    padding: 10px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.new_account .new_account_form .dob:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.new_account .new_account_form input[type="radio"] {
+    margin-top: 30px;
+    height: 15px;
+    /* padding: 100px; */
+    /* margin-left: -80px; */
+}
+.new_account .new_account_form input[class="male"] {
+    margin-left: -75px;
+}
+.new_account .new_account_form input[class="female"] {
+    margin-left: -75px;
+}
+.new_account .new_account_form .imp_text {
+    margin-top: 20px;
+    font-size: 12px;
+    color: grey;
+}
+.new_account .new_account_form .imp_text a {
+    text-decoration: none;
+    
+}
+.new_account .new_account_form .imp_text a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.new_account .new_account_form input[type="submit"] {
+    margin-top: 20px;
+    background: linear-gradient(#74b85e, #598B45);
+    color: white;
+    font-weight: bolder;
+    border: black 1px solid;
+    text-shadow: black 0.4px 0.4px;
+}
+.new_account .new_account_form input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgb(10, 136, 10);
+}
